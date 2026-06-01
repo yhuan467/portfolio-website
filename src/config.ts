@@ -1,193 +1,149 @@
 export const config = {
-    developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+  developer: {
+    name: "Yun",
+    fullName: "Yun Huang",
+    title: "AI, HCI, and Product Builder",
+    subtitle: "Researcher and Full-Stack Developer",
+    description:
+      "I build practical AI and data-driven products with a strong HCI and UX mindset.",
+  },
+  social: {
+    github: "yunhuang",
+    email: "yunhuang@example.com",
+    location: "Arizona, USA",
+  },
+  about: {
+    title: "About Me",
+    description:
+      "I am a graduate student and builder focused on AI, HCI, UX, and applied data systems. I enjoy turning ambiguous ideas into real products, from research prototypes to production-ready web experiences. My work combines human-centered design, machine learning experimentation, and clear product storytelling.",
+  },
+  experiences: [
+    {
+      position: "Research Assistant",
+      company: "Arizona State University",
+      period: "2025 - Present",
+      location: "Arizona, USA",
+      description:
+        "Designed and evaluated AI and simulation systems for social computing and decision-support scenarios.",
+      responsibilities: [
+        "Built experiment pipelines for agent-based simulations",
+        "Analyzed model behavior and produced research visualizations",
+        "Collaborated on study design, reporting, and reproducibility",
+      ],
+      technologies: ["Python", "Simulation", "Data Analysis", "Visualization"],
     },
-    social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+    {
+      position: "Capstone Developer",
+      company: "ASU Capstone Team",
+      period: "2024 - 2025",
+      location: "Arizona, USA",
+      description:
+        "Delivered end-to-end product features, including UX flows, frontend implementation, and data integration.",
+      responsibilities: [
+        "Translated product requirements into scoped technical tasks",
+        "Built frontend interfaces and backend integrations",
+        "Presented milestones to stakeholders and iterated with feedback",
+      ],
+      technologies: ["React", "TypeScript", "Node.js", "SQL", "Figma"],
     },
-    about: {
-        title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+    {
+      position: "Data and UX Project Contributor",
+      company: "Academic and Personal Projects",
+      period: "2023 - 2024",
+      location: "Arizona, USA",
+      description:
+        "Built practical dashboards and redesigned user journeys to improve clarity, accessibility, and decisions.",
+      responsibilities: [
+        "Designed and shipped dashboard prototypes for analytics use cases",
+        "Conducted UX audits and applied accessibility improvements",
+        "Documented findings and communicated product tradeoffs",
+      ],
+      technologies: ["Tableau", "Python", "React", "Figma", "Accessibility"],
     },
-    experiences: [
-        {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
-            responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
-            ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
-        },
-        {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
-        }
-    ],
-    projects: [
-        {
-            id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
-        },
-        {
-            id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
-        },
-        {
-            id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
-        },
-        {
-            id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
-        },
-        {
-            id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
-        },
-        {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
-        }
-    ],
-    contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+  ],
+  projects: [
+    {
+      id: 1,
+      title: "WatchDNA Shopify Translation System",
+      category: "AI / Product",
+      technologies: "LLM APIs, Translation Workflow, Shopify, QA Automation",
+      image: "/images/project-1.webp",
+      description:
+        "Built a translation workflow for Shopify content localization with quality checks, improved consistency, and reduced manual effort.",
     },
-    skills: {
-        develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
-        },
-        design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
-        }
-    }
+    {
+      id: 2,
+      title: "Agent-Based Simulation of Dissent and Self-Censorship",
+      category: "Research / Simulation",
+      technologies: "Python, Agent-Based Modeling, Data Analysis, Visualization",
+      image: "/images/project-2.webp",
+      description:
+        "Implemented simulation experiments to study opinion dynamics, social pressure effects, and policy-sensitive communication behavior.",
+    },
+    {
+      id: 3,
+      title: "Hierarchical Reinforcement Learning for Traffic Control",
+      category: "AI / Reinforcement Learning",
+      technologies: "Python, RL, Hierarchical Policies, Evaluation Frameworks",
+      image: "/images/project-3.webp",
+      description:
+        "Explored hierarchical RL strategies for adaptive signal control and evaluated performance across congestion scenarios.",
+    },
+    {
+      id: 4,
+      title: "HCI / UX Website Redesign",
+      category: "UX / Product Design",
+      technologies: "Figma, UX Research, Interaction Design, Frontend Implementation",
+      image: "/images/project-4.webp",
+      description:
+        "Redesigned an end-to-end website experience based on usability findings, improving task completion clarity and information flow.",
+    },
+    {
+      id: 5,
+      title: "Data Visualization Dashboard",
+      category: "Data / Analytics",
+      technologies: "React, D3, Python, SQL, Dashboard Design",
+      image: "/images/project-5.webp",
+      description:
+        "Created an interactive dashboard to surface trend and segment insights with clear storytelling for non-technical stakeholders.",
+    },
+  ],
+  contact: {
+    email: "yunhuang@example.com",
+    github: "https://github.com/yunhuang",
+    linkedin: "https://linkedin.com/in/yunhuang",
+    twitter: "https://x.com/yunhuang",
+    facebook: "https://facebook.com/yunhuang",
+    instagram: "https://instagram.com/yunhuang",
+  },
+  skills: {
+    develop: {
+      title: "AI + DATA",
+      description: "Building applied intelligence and analysis systems",
+      details:
+        "I develop AI-enabled workflows, simulation experiments, and analytics products that connect model outputs with product decisions.",
+      tools: [
+        "Python",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "LLM APIs",
+        "Data Analysis",
+        "Experiment Design",
+      ],
+    },
+    design: {
+      title: "HCI + FULL-STACK",
+      description: "Human-centered product and implementation",
+      details:
+        "I combine UX research and interface design with modern web engineering to ship practical, user-focused products.",
+      tools: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Figma",
+        "SQL",
+        "Accessibility",
+      ],
+    },
+  },
 };
-
-
