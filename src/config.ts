@@ -69,7 +69,7 @@ export const config = {
       technologies: "JavaScript, Shopify, Google Cloud Translation API, RSS",
       image: "/images/project-watchdna.png",
       description:
-        "Implemented multilingual storefront translation, navigation-aware localization, and real-time RSS content translation for product updates.",
+        "Built multilingual localization features for a Shopify storefront by integrating Google Cloud Translation API, translating page content across navigation, and keeping RSS-driven product updates synchronized in real time for international users.",
     },
     {
       id: 2,
@@ -78,7 +78,7 @@ export const config = {
       technologies: "Python, Agent-Based Modeling, Bayesian Optimization",
       image: "/images/project-research.png",
       description:
-        "Studied dissent and self-censorship behavior through controlled simulation experiments and robust policy evaluation methods.",
+        "Modeled dissent and self-censorship dynamics in authority-population systems through agent-based simulation, epsilon-ball neighborhood sampling, and Bayesian optimization to evaluate policies more robustly than brute-force parameter sweeps.",
     },
     {
       id: 3,
@@ -87,7 +87,7 @@ export const config = {
       technologies: "PyTorch, Reinforcement Learning, CityFlow, Q-Value Modulation",
       image: "/images/project-traffic-rl.png",
       description:
-        "Implemented a two-tier HRL framework in PyTorch and optimized regional coordination via Q-value modulation on the CityFlow simulator.",
+        "Implemented a two-tier hierarchical reinforcement learning framework in PyTorch, reducing traffic delay by 42.6% and improving regional coordination through Q-value modulation in the CityFlow traffic simulator.",
     },
     {
       id: 4,
@@ -96,7 +96,7 @@ export const config = {
       technologies: "WebGL, JavaScript, 3D Graphics, Avatar Design",
       image: "/images/project-webgl-avatar.png",
       description:
-        "Built an avatar-focused computer graphics project in WebGL exploring interactive 3D rendering and character presentation.",
+        "Created an avatar-centered WebGL graphics project focused on modeling, rendering, and presenting an interactive character in a browser-based 3D environment.",
     },
     {
       id: 5,
@@ -105,7 +105,7 @@ export const config = {
       technologies: "JavaScript, Image and Text Analysis, Frontend Integration",
       image: "/images/project-sunhacks.png",
       description:
-        "Built a privacy-focused JavaScript app that detects sensitive information and applies a mosaic filter before content sharing.",
+        "Built a JavaScript privacy app that detects sensitive information in images or text, warns users about potential privacy risks, and applies a mosaic filter to obscure private details before content sharing under hackathon time constraints.",
     },
   ],
   contact: {
@@ -145,5 +145,46 @@ export const config = {
         "Visual Studio Code",
       ],
     },
+  },
+  skillsOverview: {
+    programming: [
+      "C++",
+      "Java",
+      "JavaScript",
+      "C",
+      "Python",
+      "MATLAB",
+      "HTML/CSS",
+      "SQL",
+      "JavaFX",
+      "Git",
+      "UML",
+    ],
+    tools: [
+      "WebStorm",
+      "PyCharm",
+      "Docker",
+      "MongoDB",
+      "Eclipse",
+      "Git",
+      "IntelliJ",
+      "CLion",
+      "Visual Studio Code",
+    ],
+    languages: [
+      "Mandarin",
+      "Taiwanese",
+      "English",
+      "German (B2 in progress)",
+    ],
+    coursework: [
+      "Data Structures & Algorithms",
+      "Objects & Design",
+      "Computer Organization & Programming",
+      "Machine Learning",
+      "Object-Oriented Programming",
+      "Statistics & Applications",
+      "Distributed Software Development",
+    ],
   },
 };
