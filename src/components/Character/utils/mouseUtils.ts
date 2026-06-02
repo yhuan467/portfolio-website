@@ -44,7 +44,7 @@ export const handleHeadRotation = (
 ) => {
   if (!headBone) return;
   if (window.scrollY < 200) {
-    const maxRotation = Math.PI / 6;
+    const maxRotation = Math.PI / 7;
     headBone.rotation.y = lerp(
       headBone.rotation.y,
       mouseX * maxRotation,

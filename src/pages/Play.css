@@ -22,8 +22,8 @@ body:has(.play-page) {
   left: -150px;
   width: 300px;
   height: 300px;
-  background-color: #fb8dff;
-  box-shadow: inset -50px 40px 50px rgba(84, 0, 255, 0.6);
+  background-color: var(--accentColor);
+  box-shadow: inset -50px 40px 50px rgba(255, 92, 141, 0.32);
   filter: blur(60px);
   border-radius: 50%;
   opacity: 0.6;
@@ -39,8 +39,8 @@ body:has(.play-page) {
   right: -100px;
   width: 250px;
   height: 250px;
-  background-color: #c2a4ff;
-  box-shadow: inset -30px 30px 40px rgba(84, 0, 255, 0.5);
+  background-color: var(--secondaryAccent);
+  box-shadow: inset -30px 30px 40px rgba(115, 37, 83, 0.32);
   filter: blur(70px);
   border-radius: 50%;
   opacity: 0.4;
@@ -88,13 +88,13 @@ body:has(.play-page) {
   font-size: 14px;
   transition: all 0.3s ease;
   padding: 8px 16px;
-  border: 1px solid rgba(194, 164, 255, 0.3);
+  border: 1px solid rgba(255, 92, 141, 0.25);
   border-radius: 20px;
 }
 
 .play-header .back-button:hover {
   background: var(--accentColor);
-  color: #000;
+  color: #0b080c;
 }
 
 /* Chess Container */
@@ -125,7 +125,7 @@ body:has(.play-page) {
   padding: 8px 12px;
   background: rgba(11, 8, 12, 0.8);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(194, 164, 255, 0.12);
+  border: 1px solid rgba(255, 92, 141, 0.1);
   border-radius: 8px;
   width: 100%;
   box-sizing: border-box;
@@ -171,7 +171,7 @@ body:has(.play-page) {
   padding: 10px 14px;
   background: rgba(11, 8, 12, 0.8);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(194, 164, 255, 0.15);
+  border: 1px solid rgba(255, 92, 141, 0.12);
   border-radius: 10px;
   width: 100%;
   box-sizing: border-box;
@@ -180,13 +180,13 @@ body:has(.play-page) {
 .player-avatar {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, rgba(251, 141, 255, 0.2), rgba(194, 164, 255, 0.1));
+  background: linear-gradient(135deg, rgba(255, 92, 141, 0.12), rgba(115, 37, 83, 0.1));
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  border: 1px solid rgba(194, 164, 255, 0.2);
+  border: 1px solid rgba(255, 92, 141, 0.16);
   overflow: hidden;
 }
 

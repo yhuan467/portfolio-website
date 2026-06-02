@@ -29,6 +29,15 @@ const Landing = ({ children }: PropsWithChildren) => {
               <div className="landing-h2-info">{config.developer.subtitle}</div>
             </h2>
           </div>
+          <div className="landing-arm-copy">
+            <p className="landing-arm-kicker">
+              Hello! I&apos;m {config.developer.fullName}
+            </p>
+            <div className="landing-arm-role">
+              <h2 className="landing-arm-title">{config.developer.title}</h2>
+              <p className="landing-arm-subtitle">{config.developer.subtitle}</p>
+            </div>
+          </div>
           {/* Mobile photo - shows only on mobile when 3D character is hidden */}
           <div className="mobile-photo">
             <img src="/images/mypicnbg.png" alt={config.developer.fullName} />

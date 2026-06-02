@@ -44,6 +44,23 @@ const Scene = () => {
       camera.zoom = 1.1;
       camera.updateProjectionMatrix();
 
+      const frameCharacter = (target: THREE.Object3D) => {
+        const box = new THREE.Box3().setFromObject(target);
+        if (box.isEmpty()) return;
+
+        const size = box.getSize(new THREE.Vector3());
+        const focusX = 0;
+        const upperBodyHeight = size.y * 0.36;
+        const focusY = box.min.y + size.y * 0.82;
+        const fitHeightDistance =
+          upperBodyHeight / (2 * Math.tan((Math.PI * camera.fov) / 360));
+        const distance = fitHeightDistance * 1.14;
+
+        camera.position.set(focusX, focusY - size.y * 0.08, distance);
+        camera.lookAt(focusX, focusY, 0);
+        camera.updateProjectionMatrix();
+      };
+
       let headBone: THREE.Object3D | null = null;
       let screenLight: any | null = null;
       let mixer: THREE.AnimationMixer;
@@ -62,7 +79,14 @@ const Scene = () => {
           let character = gltf.scene;
           setChar(character);
           scene.add(character);
-          headBone = character.getObjectByName("spine006") || null;
+          frameCharacter(character);
+          headBone =
+            character.getObjectByName("spine006") ||
+            character.getObjectByName("mixamorig:Head") ||
+            character.getObjectByName("mixamorig:Neck") ||
+            character.getObjectByName("neck") ||
+            character.getObjectByName("Head") ||
+            null;
           screenLight = character.getObjectByName("screenlight") || null;
           progress.loaded().then(() => {
             setTimeout(() => {
@@ -109,6 +133,10 @@ const Scene = () => {
       }
       const animate = () => {
         requestAnimationFrame(animate);
+        const delta = clock.getDelta();
+        if (mixer) {
+          mixer.update(delta);
+        }
         if (headBone) {
           handleHeadRotation(
             headBone,
@@ -119,10 +147,6 @@ const Scene = () => {
             THREE.MathUtils.lerp
           );
           light.setPointLight(screenLight);
-        }
-        const delta = clock.getDelta();
-        if (mixer) {
-          mixer.update(delta);
         }
         renderer.render(scene, camera);
       };
