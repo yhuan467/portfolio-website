@@ -15,7 +15,7 @@ export const config = {
   about: {
     title: "About Me",
     description:
-      "I am a Computer Science student at Arizona State University focused on intelligence and modeling simulations. My work spans production software, multilingual web experiences, agent-based modeling, and reinforcement learning. I enjoy building systems that are both technically solid and useful to real users.",
+      "Computer Science graduate from Arizona State University (May 2026) specializing in machine learning and distributed systems, with hands-on experience in full-stack development, reinforcement learning research, and simulation modeling. Seeking a software engineering or ML engineering role where I can contribute strong systems thinking and practical AI/ML implementation skills.",
   },
   experiences: [
     {
