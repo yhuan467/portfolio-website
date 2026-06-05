@@ -1,0 +1,11 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#F7FBFF"/>
+  <rect x="56" y="56" width="1088" height="608" rx="36" fill="white" fill-opacity="0.7"/>
+  <circle cx="314" cy="332" r="120" fill="#5F9ECF" fill-opacity="0.12"/>
+  <path d="M315 228C272.5 228 238 262.5 238 305V359C238 401.5 272.5 436 315 436" stroke="#5F9ECF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M315 248C283.5 248 258 273.5 258 305V359C258 390.5 283.5 416 315 416" stroke="#5F9ECF" stroke-width="16" stroke-linecap="round"/>
+  <text x="410" y="338" fill="#5F9ECF" font-family="Georgia, 'Times New Roman', serif" font-size="132" font-weight="400">CITI</text>
+  <text x="417" y="432" fill="#5F9ECF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="300" letter-spacing="8">PROGRAM</text>
+  <text x="421" y="494" fill="#8EA2B3" font-family="Arial, Helvetica, sans-serif" font-size="28">A division of BRANY</text>
+  <text x="92" y="620" fill="#5B758D" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Research ethics and IRB training</text>
+</svg>

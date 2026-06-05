@@ -30,6 +30,7 @@
   line-height: 26px;
   letter-spacing: 0.5px;
   word-spacing: 2px;
+  color: var(--textPrimary);
 }
 
 .about-me .split-word {

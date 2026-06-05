@@ -193,42 +193,63 @@ export const config = {
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "o8ymknh9wdpm",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Completed Anthropic's introduction to subagents, covering how multi-agent workflows can be structured for more capable AI systems.",
     },
     {
       title: "Claude Code in Action",
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "uu9cd3eui5y2",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Hands-on training focused on practical Claude Code workflows, including prompt-driven development and agent-assisted coding patterns.",
     },
     {
       title: "Certificate of completion: Introduction to agent skills",
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "hy5rrurjd3zi",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Completed foundational coursework on reusable agent skills and how specialized workflows can extend AI capabilities in real projects.",
     },
     {
       title: "Certificate of completion: Claude code 101",
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "uhpedo7ur4bw",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Covered core Claude Code concepts, setup, and baseline productivity workflows for building and iterating with AI coding support.",
     },
     {
       title: "Certificate of completion: Introduction to Claude Cowork",
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "uiqnhki9uemc",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Explored collaborative AI workflows in Claude Cowork, with an emphasis on coordination, shared context, and practical team usage.",
     },
     {
       title: "Certificate of completion: Claude 101",
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "suvu3s4q3p5t",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Completed an introductory course on Claude fundamentals, prompt design, and productive AI usage for technical and research tasks.",
     },
     {
       title: "Certificate of Completion: AI Fluency Framework & Foundations",
       issuer: "Anthropic",
       issued: "Jun 2026",
       credentialId: "3vswjc7hns5s",
+      cover: "/images/license-anthropic.svg",
+      summary:
+        "Built a stronger foundation in AI fluency, including model behavior, evaluation mindset, and practical communication with AI systems.",
     },
     {
       title: "IRB – Social and Behavioral Research (Group 2)",
@@ -236,6 +257,9 @@ export const config = {
       issued: "Sep 2025",
       expires: "Sep 2029",
       credentialId: "71736382",
+      cover: "/images/license-citi.svg",
+      summary:
+        "Completed IRB training for social and behavioral research, covering ethics, participant protection, and compliant research practices.",
     },
   ],
 };
