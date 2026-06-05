@@ -48,6 +48,33 @@ const TechStackNew = () => {
             </article>
           ))}
         </div>
+
+        <div className="licenses-block">
+          <div className="licenses-heading">
+            <h3>Licenses & Certifications</h3>
+            <p>
+              Coursework, agent tooling, and research-related certifications
+              that support my software and ML background.
+            </p>
+          </div>
+
+          <div className="licenses-list">
+            {config.licenses.map((license) => (
+              <article key={license.title} className="license-card">
+                <div className="license-badge">AI</div>
+                <div className="license-content">
+                  <h4>{license.title}</h4>
+                  <p className="license-issuer">{license.issuer}</p>
+                  <p className="license-meta">
+                    Issued {license.issued}
+                    {license.expires ? ` · Expires ${license.expires}` : ""}
+                  </p>
+                  <p className="license-id">Credential ID {license.credentialId}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

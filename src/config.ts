@@ -187,4 +187,55 @@ export const config = {
       "Distributed Software Development",
     ],
   },
+  licenses: [
+    {
+      title: "Certificate of Completion: Introduction to subagents",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "o8ymknh9wdpm",
+    },
+    {
+      title: "Claude Code in Action",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "uu9cd3eui5y2",
+    },
+    {
+      title: "Certificate of completion: Introduction to agent skills",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "hy5rrurjd3zi",
+    },
+    {
+      title: "Certificate of completion: Claude code 101",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "uhpedo7ur4bw",
+    },
+    {
+      title: "Certificate of completion: Introduction to Claude Cowork",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "uiqnhki9uemc",
+    },
+    {
+      title: "Certificate of completion: Claude 101",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "suvu3s4q3p5t",
+    },
+    {
+      title: "Certificate of Completion: AI Fluency Framework & Foundations",
+      issuer: "Anthropic",
+      issued: "Jun 2026",
+      credentialId: "3vswjc7hns5s",
+    },
+    {
+      title: "IRB – Social and Behavioral Research (Group 2)",
+      issuer: "CITI Program",
+      issued: "Sep 2025",
+      expires: "Sep 2029",
+      credentialId: "71736382",
+    },
+  ],
 };

@@ -41,6 +41,93 @@
   gap: 24px;
 }
 
+.licenses-block {
+  margin-top: 72px;
+}
+
+.licenses-heading {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.licenses-heading h3 {
+  margin: 0 0 12px;
+  font-size: 34px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.licenses-heading p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.licenses-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.license-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 22px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.license-badge {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 147, 172, 0.1);
+  border: 1px solid rgba(245, 147, 172, 0.2);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.license-content h4 {
+  margin: 0 0 6px;
+  font-size: 19px;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #fff;
+}
+
+.license-issuer,
+.license-meta,
+.license-id {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.license-issuer {
+  color: var(--highlightColor);
+  font-size: 15px;
+}
+
+.license-meta,
+.license-id {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 14px;
+}
+
 .skills-card {
   background: linear-gradient(
     180deg,
@@ -88,6 +175,10 @@
   .skills-grid {
     gap: 20px;
   }
+
+  .licenses-list {
+    gap: 16px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -110,6 +201,14 @@
   .skills-grid {
     grid-template-columns: 1fr;
   }
+
+  .licenses-block {
+    margin-top: 56px;
+  }
+
+  .licenses-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -129,5 +228,30 @@
   .skills-tag {
     font-size: 13px;
     padding: 9px 12px;
+  }
+
+  .licenses-heading h3 {
+    font-size: 28px;
+  }
+
+  .licenses-heading p {
+    font-size: 15px;
+  }
+
+  .license-card {
+    padding: 18px;
+    border-radius: 20px;
+    gap: 14px;
+  }
+
+  .license-badge {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    font-size: 18px;
+  }
+
+  .license-content h4 {
+    font-size: 17px;
   }
 }
