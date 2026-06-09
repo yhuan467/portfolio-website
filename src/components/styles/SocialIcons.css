@@ -30,6 +30,12 @@
   height: 50px;
   position: relative;
   display: flex;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 14px 40px rgba(94, 132, 168, 0.12);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 .social-icons a {
   --siLeft: 50%;
@@ -57,16 +63,23 @@
   line-height: 15px;
   font-weight: 600;
   color: #5e5e5e;
+  padding: 14px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: var(--glassShadow);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   cursor: pointer;
   transition: 0.5s;
   transform-origin: left bottom;
   transform: translateX(100%) rotateZ(-90deg);
 }
 .resume-button:hover {
-  color: #fff;
+  color: var(--textPrimary);
 }
 div.resume-button span {
-  color: #fff;
+  color: var(--textPrimary);
   font-size: 17px;
   margin-top: -1px;
   display: flex;

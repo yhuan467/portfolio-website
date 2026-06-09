@@ -11,6 +11,7 @@
   transform: translateX(-50%);
   top: 0;
   z-index: 9999;
+  align-items: center;
 }
 .header ul {
   font-size: 11px;
@@ -22,6 +23,13 @@
   column-gap: 20px;
   row-gap: 6px;
   align-items: end;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--glassBg);
+  border: 1px solid var(--glassBorder);
+  box-shadow: var(--glassShadow);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
 }
 .header ul li {
   margin-left: 0px;
@@ -39,12 +47,26 @@
   font-size: 13px;
   letter-spacing: 0.8px;
   font-weight: 500;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  box-shadow: var(--glassShadow);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
 }
 .navbar-title {
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.2px;
   color: var(--textPrimary);
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 14px 40px rgba(94, 132, 168, 0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 @media only screen and (min-width: 500px) {
   .header {
