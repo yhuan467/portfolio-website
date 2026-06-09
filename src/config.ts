@@ -65,47 +65,110 @@ export const config = {
     {
       id: 1,
       title: "WatchDNA Storefront Localization",
-      category: "Product / Web Development",
-      technologies: "JavaScript, Shopify, Google Cloud Translation API, RSS",
+      category: "Professional Work / Full-Stack Development",
+      technologies: "JavaScript, Liquid, Shopify, Vercel, Google Cloud Translation API, Caching",
       image: "/images/project-watchdna.png",
       description:
-        "Built multilingual localization features for a Shopify storefront by integrating Google Cloud Translation API, translating page content across navigation, and keeping RSS-driven product updates synchronized in real time for international users.",
+        "Designed and shipped a real-time multilingual translation system for a live Shopify storefront using JavaScript, Liquid, and a Vercel-hosted backend. Added automatic language detection, response caching, and admin-side override tools to reduce manual localization work, improve maintainability, and support more reliable production deployment.",
     },
     {
       id: 2,
       title: "Authority-Population Simulation Research",
-      category: "Research / Simulation",
-      technologies: "Python, Agent-Based Modeling, Bayesian Optimization",
+      category: "Research / Simulation Modeling",
+      technologies: "Python, Agent-Based Modeling, Experiment Pipelines, Data Visualization",
       image: "/images/project-research.png",
       description:
-        "Modeled dissent and self-censorship dynamics in authority-population systems through agent-based simulation, epsilon-ball neighborhood sampling, and Bayesian optimization to evaluate policies more robustly than brute-force parameter sweeps.",
+        "Built large-scale simulation pipelines to model censorship and dissent dynamics across 10,000+ agents, combining authority policy adaptation with individual-level dissent learning. Designed experiments and visual analyses to compare update rules, punishment settings, and parameter search strategies, supporting ongoing research and publication work.",
     },
     {
       id: 3,
       title: "Hierarchical Reinforcement Learning for Traffic Control",
-      category: "AI / Reinforcement Learning",
-      technologies: "PyTorch, Reinforcement Learning, CityFlow, Q-Value Modulation",
+      category: "Machine Learning / Reinforcement Learning",
+      technologies: "PyTorch, Hierarchical RL, CityFlow, Q-Value Modulation",
       image: "/images/project-traffic-rl.png",
       description:
-        "Implemented a two-tier hierarchical reinforcement learning framework in PyTorch, reducing traffic delay by 42.6% and improving regional coordination through Q-value modulation in the CityFlow traffic simulator.",
+        "Designed a two-tier hierarchical reinforcement learning framework in PyTorch that reduced average traffic delay by 42.6% on the CityFlow simulator. Improved regional coordination across six intersections through Q-Value Modulation and multi-level control policies.",
     },
     {
       id: 4,
-      title: "Interactive WebGL Avatar Project",
-      category: "Computer Graphics / WebGL",
-      technologies: "WebGL, JavaScript, 3D Graphics, Avatar Design",
-      image: "/images/project-webgl-avatar.png",
+      title: "Reinforcement Learning Agents for Sequential Decision-Making",
+      category: "Machine Learning / Reinforcement Learning",
+      technologies: "Python, Value Iteration, Q-Learning, Approximate Q-Learning, Pacman AI",
+      image: "/images/project-traffic-rl.png",
       description:
-        "Created an avatar-centered WebGL graphics project focused on modeling, rendering, and presenting an interactive character in a browser-based 3D environment.",
+        "Implemented five reinforcement learning algorithms across Gridworld, Crawler, and Pacman environments. Trained a Pacman agent over 2,000 episodes to achieve a 100% win rate across 100 evaluation games with an average score above 500.",
     },
     {
       id: 5,
+      title: "Multi-Agent Pacman AI",
+      category: "Machine Learning / Search & Adversarial AI",
+      technologies: "Python, Minimax, Alpha-Beta Pruning, Expectimax, Multi-Agent Search",
+      image: "/images/project-traffic-rl.png",
+      description:
+        "Engineered four Pacman agents using Minimax, Alpha-Beta pruning, and Expectimax for adversarial and stochastic decision-making. Reduced Alpha-Beta depth-4 runtime from 73.76 seconds to 27.05 seconds while preserving equivalent gameplay outcomes.",
+    },
+    {
+      id: 6,
+      title: "Graph Search and Heuristic Pathfinding Engine",
+      category: "Algorithms / AI Search",
+      technologies: "Python, DFS, BFS, UCS, A*, Heuristic Design",
+      image: "/images/project-traffic-rl.png",
+      description:
+        "Built DFS, BFS, UCS, and A* pathfinding agents for grid-based multi-goal navigation problems. Designed an admissible heuristic that cut search-node expansions by more than 60% on benchmark mazes without sacrificing optimality.",
+    },
+    {
+      id: 7,
+      title: "WebGL Cat Avatar Modeling",
+      category: "Computer Graphics / WebGL",
+      technologies: "WebGL, JavaScript, Hierarchical Modeling, Procedural Textures, Phong Lighting",
+      image: "/images/project-webgl-avatar.png",
+      description:
+        "Built an interactive WebGL 3D avatar system using hierarchical modeling, articulated joint animation, and procedural texture mapping. Implemented a cube-based character with parent-child traversal so the head, ears, arms, feet, cap, and tassel could animate along coordinated motion paths under custom Phong lighting and texture controls.",
+    },
+    {
+      id: 8,
+      title: "Interactive WebGL Surface Renderer",
+      category: "Computer Graphics / WebGL",
+      technologies: "WebGL, JavaScript, Shader Programming, Parametric Surfaces, Camera Controls",
+      image: "/images/project-webgl-avatar.png",
+      description:
+        "Implemented an interactive WebGL surface renderer for parametric 3D geometry with fragment-shader Phong lighting, indexed mesh generation, and exact normal computation. Added real-time camera, lighting, and field-of-view controls, then extended the renderer with a diamond toroid and procedural color blending for more advanced shader-driven visual effects.",
+    },
+    {
+      id: 9,
       title: "JavaScript-based Privacy App (SunHacks)",
       category: "Hackathon / Privacy",
-      technologies: "JavaScript, Image and Text Analysis, Frontend Integration",
+      technologies: "JavaScript, Backend API Integration, Image Filtering, Rapid Prototyping",
       image: "/images/project-sunhacks.png",
       description:
-        "Built a JavaScript privacy app that detects sensitive information in images or text, warns users about potential privacy risks, and applies a mosaic filter to obscure private details before content sharing under hackathon time constraints.",
+        "Built a JavaScript privacy app in 24 hours that detects sensitive information in images and text, then applies mosaic filters before content sharing. Integrated backend privacy detection APIs into a working prototype that was demoed live to more than 100 hackathon attendees.",
+    },
+    {
+      id: 10,
+      title: "SOAP & REST Web Services",
+      category: "Distributed Systems / Backend Development",
+      technologies: "Java, SOAP, REST, WebStar, External APIs, Data Aggregation",
+      image: "/images/project-watchdna.png",
+      description:
+        "Developed and deployed SOAP and REST services on the WebStar server to compute region livability scores from ZIP codes using three external APIs. Built the data integration layer to aggregate, normalize, and return weather and natural hazard information as structured client-ready responses for distributed applications.",
+    },
+    {
+      id: 11,
+      title: "Interactive E-Commerce Profitability Analytics Dashboard",
+      category: "Data Visualization / Analytics",
+      technologies: "JavaScript, Data Visualization, Dashboard Design, Interactive Filtering",
+      image: "/images/project-watchdna.png",
+      description:
+        "Built an interactive analytics dashboard that surfaced revenue patterns, high-margin segments, and outliers across five or more product categories. Designed filters and hover-based exploration that made cross-segment comparison significantly faster.",
+    },
+    {
+      id: 12,
+      title: "E-Commerce UX Redesign — Escape from Tarkov",
+      category: "UX Design / Product Thinking",
+      technologies: "Figma, UX Research, Interaction Design, Checkout Flow Redesign",
+      image: "/images/project-watchdna.png",
+      description:
+        "Redesigned checkout and support navigation in Figma for an e-commerce experience inspired by Escape from Tarkov. Reduced multi-item checkout time by 45% and improved satisfaction through a clearer navigation hierarchy and more unified purchase flow.",
     },
   ],
   contact: {
