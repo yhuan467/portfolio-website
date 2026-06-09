@@ -18,16 +18,16 @@
   margin-bottom: 30px;
   transition: all 0.3s ease;
   padding: 10px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(8, 14, 22, 0.44);
   box-shadow: var(--glassShadow);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
 
 .back-button:hover {
-  background: rgba(255, 255, 255, 0.44);
+  background: rgba(10, 16, 24, 0.58);
   color: var(--textPrimary);
 }
 
@@ -56,8 +56,8 @@
 }
 
 .myworks-card {
-  background: rgba(255, 255, 255, 0.24);
-  border: 1px solid rgba(255, 255, 255, 0.48);
+  background: rgba(8, 14, 22, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 24px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -80,7 +80,7 @@
   font-size: 14px;
   color: var(--textPrimary);
   font-weight: 600;
-  background: rgba(255, 255, 255, 0.42);
+  background: rgba(10, 16, 24, 0.56);
   padding: 5px 12px;
   border-radius: 20px;
   z-index: 1;
@@ -122,7 +122,7 @@
 
 .myworks-card-description {
   font-size: 14px;
-  color: rgba(42, 61, 82, 0.82);
+  color: var(--textMuted);
   line-height: 1.6;
   margin-bottom: 15px;
 }

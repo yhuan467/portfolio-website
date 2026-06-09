@@ -116,7 +116,7 @@
 
   .landing-h2-info {
     font-size: 18px !important;
-    color: rgba(42, 61, 82, 0.9);
+    color: var(--textMuted);
   }
 
   .landing-info-h2::after {
@@ -321,7 +321,7 @@
   font-size: 28px;
   line-height: 28px;
   font-weight: 500;
-  font-family: "Geist", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: var(--textPrimary);
   text-shadow: 0 10px 28px rgba(255, 255, 255, 0.65);
 }
@@ -352,7 +352,7 @@
   margin: 0;
   margin-top: -20px;
   margin-left: 20px;
-  font-family: "Geist", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 40px;
@@ -382,7 +382,7 @@ h2.landing-info-h2 {
   font-size: 36px;
   width: 150%;
   margin: 0;
-  font-family: "Geist", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   position: relative;
   margin-left: -5px;

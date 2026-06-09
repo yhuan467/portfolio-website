@@ -28,7 +28,7 @@
 }
 
 .career-section h2>span {
-  font-family: "Geist", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 300;
 }
 
@@ -51,7 +51,7 @@
   font-weight: 300;
   margin: 0;
   line-height: 20px;
-  color: rgba(42, 61, 82, 0.78);
+  color: var(--textMuted);
 }
 
 .career-info-in {
@@ -133,8 +133,8 @@
 .career-info-box {
   padding: 28px 30px;
   border-radius: 28px;
-  background: rgba(255, 255, 255, 0.24);
-  border: 1px solid rgba(255, 255, 255, 0.46);
+  background: rgba(8, 14, 22, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: var(--glassShadow);
   backdrop-filter: blur(22px);
   -webkit-backdrop-filter: blur(22px);

@@ -15,8 +15,8 @@
   margin: 0 auto;
   padding: 36px 40px 42px;
   border-radius: 34px;
-  background: rgba(255, 255, 255, 0.26);
-  border: 1px solid rgba(255, 255, 255, 0.48);
+  background: rgba(8, 14, 22, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: var(--glassShadow);
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
@@ -48,7 +48,7 @@
   margin-top: 8px;
   margin-bottom: 15px;
   font-size: 14px;
-  color: rgba(33, 54, 74, 0.86);
+  color: var(--textPrimary);
 }
 a.contact-social {
   font-size: 16px;

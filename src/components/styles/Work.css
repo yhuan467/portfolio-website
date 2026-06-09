@@ -95,7 +95,7 @@
 
 .work-info p {
   font-weight: 200;
-  color: rgba(42, 61, 82, 0.78);
+  color: var(--textMuted);
   margin: 0;
   margin-top: 3px;
 }
@@ -118,7 +118,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(8, 14, 22, 0.44);
   width: 50px;
   border-radius: 50px;
   height: 50px;
