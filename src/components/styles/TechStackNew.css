@@ -168,12 +168,12 @@
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  background: rgba(255, 255, 255, 0.32);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.08) 100%);
   color: var(--textPrimary);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  box-shadow: var(--glassShadow), inset 0 1px 0 rgba(255,255,255,0.42);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,7 +183,7 @@
 }
 
 .license-nav-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.48);
+  background: linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.12) 100%);
   transform: translateY(-50%) scale(1.04);
 }
 
@@ -266,12 +266,12 @@
 
 .license-mini-btn,
 .license-expand-pill {
-  border: 1px solid rgba(255, 255, 255, 0.52);
-  background: rgba(255, 255, 255, 0.34);
-  color: rgba(33, 54, 74, 0.92);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.08) 100%);
+  color: var(--textPrimary);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  box-shadow: var(--glassShadow), inset 0 1px 0 rgba(255,255,255,0.42);
 }
 
 .license-mini-btn {
