@@ -128,7 +128,7 @@
 }
 
 .work-info h4 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
   margin: 0;
   color: #102030;
@@ -141,8 +141,14 @@
   margin-top: 3px;
 }
 
+.work-title p {
+  font-size: 18px;
+}
+
 .work-info>p {
   width: 90%;
+  font-size: 19px;
+  line-height: 1.65;
 }
 
 .work-image {
@@ -318,12 +324,12 @@
 .see-all-works h3 {
   font-size: 32px;
   font-weight: 500;
-  color: var(--accentColor);
+  color: rgba(12, 29, 42, 0.96);
 }
 
 .see-all-works p {
   font-size: 16px;
-  color: rgba(243, 180, 139, 0.86);
+  color: rgba(12, 29, 42, 0.96);
   max-width: 250px;
 }
 
@@ -332,7 +338,7 @@
   padding: 15px 35px;
   font-size: 16px;
   font-weight: 500;
-  color: var(--accentColor);
+  color: rgba(12, 29, 42, 0.96);
   background: rgba(255, 255, 255, 0.42);
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.42);

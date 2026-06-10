@@ -216,8 +216,8 @@
 .license-carousel-track {
   position: relative;
   width: 100%;
-  max-width: 980px;
-  height: 400px;
+  max-width: 1080px;
+  height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,7 +227,7 @@
 
 .license-flip-card {
   position: absolute;
-  width: min(100%, 352px);
+  width: min(100%, 392px);
   border-radius: 34px;
   overflow: hidden;
   background: rgba(8, 14, 22, 0.42);
@@ -305,7 +305,7 @@
 
 .license-cover-wrap {
   position: relative;
-  height: 168px;
+  height: 190px;
   overflow: hidden;
 }
 
@@ -328,7 +328,7 @@
 .license-card-body {
   position: relative;
   z-index: 1;
-  padding: 18px 20px 22px;
+  padding: 20px 22px 24px;
 }
 
 .license-card-head {
@@ -351,7 +351,7 @@
 .license-card-head h4 {
   margin: 0;
   color: var(--textPrimary);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: -0.04em;
@@ -373,7 +373,7 @@
 .license-summary {
   margin: 0 0 16px;
   color: rgba(42, 61, 82, 0.84);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.65;
   max-width: 100%;
 }
@@ -389,7 +389,7 @@
 .license-id {
   margin: 0;
   color: rgba(68, 86, 106, 0.72);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.55;
 }
 
