@@ -101,18 +101,26 @@ body {
   height: auto;
   background-image:
     url('/images/background2.jpg'),
-    url('/images/flower.jpg');
+    url('/images/flower.jpg'),
+    url('/images/mountain.webp'),
+    url('/images/road.webp');
   background-size:
+    100vw auto,
+    100vw auto,
     100vw auto,
     100vw auto;
   background-position:
     center top,
-    center calc(100vw * 1308 / 736);
+    center calc(100vw * 1308 / 736),
+    center calc((100vw * 1308 / 736) + (100vw * 1308 / 736)),
+    center calc((100vw * 1308 / 736) + (100vw * 1308 / 736) + (100vw * 1309 / 736));
   background-repeat:
+    no-repeat,
+    no-repeat,
     no-repeat,
     no-repeat;
   background-attachment: scroll;
-  background-color: #16220f;
+  background-color: #d6e6ef;
   flex-grow: 1;
   --cWidth: calc(100% - 30px);
   --cMaxWidth: 1920px;
