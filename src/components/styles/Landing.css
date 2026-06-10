@@ -116,7 +116,7 @@
 
   .landing-h2-info {
     font-size: 18px !important;
-    color: var(--textMuted);
+    color: rgba(247, 243, 238, 0.86);
   }
 
   .landing-info-h2::after {
@@ -171,8 +171,8 @@
   position: fixed;
   width: 300px;
   height: 300px;
-  background-color: rgba(255, 199, 158, 0.72);
-  box-shadow: inset -50px 40px 50px rgba(255, 213, 185, 0.55);
+  background-color: rgba(243, 180, 139, 0.38);
+  box-shadow: inset -50px 40px 50px rgba(255, 228, 196, 0.28);
   filter: blur(85px);
   border-radius: 50%;
   animation: loadingCircle 5s linear infinite;
@@ -185,7 +185,7 @@
   height: 130px;
   background-image: linear-gradient(0deg,
       transparent,
-      rgba(255, 255, 255, 0.72) 70%);
+      rgba(5, 8, 12, 0.62) 70%);
   pointer-events: none;
   z-index: 12;
   opacity: 0;
@@ -211,8 +211,8 @@
   display: none;
   width: 300px;
   height: 300px;
-  background-color: rgba(216, 233, 255, 0.78);
-  box-shadow: inset -40px 35px 50px rgba(255, 255, 255, 0.44);
+  background-color: rgba(134, 186, 208, 0.28);
+  box-shadow: inset -40px 35px 50px rgba(232, 244, 255, 0.18);
   filter: blur(80px);
   border-radius: 50%;
   animation: loadingCircle2 5s linear infinite;
@@ -244,11 +244,11 @@
   width: 400px;
   height: 400px;
   z-index: 1;
-  background-color: rgba(252, 191, 212, 0.85);
+  background-color: rgba(243, 180, 139, 0.42);
   transform: translate(-50%, 36%) scaleX(1.4);
   box-shadow:
-    inset 66px 35px 85px 0px rgba(255, 222, 203, 0.58),
-    0 0 120px rgba(179, 211, 255, 0.28);
+    inset 66px 35px 85px 0px rgba(255, 236, 213, 0.22),
+    0 0 120px rgba(134, 186, 208, 0.14);
   filter: blur(70px);
   border-radius: 50%;
   top: 50%;
@@ -312,7 +312,7 @@
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 2px;
-  text-shadow: 0 8px 24px rgba(255, 255, 255, 0.55);
+  text-shadow: 0 10px 26px rgba(0, 0, 0, 0.46);
 }
 
 .landing-intro h1 {
@@ -323,7 +323,7 @@
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
   color: var(--textPrimary);
-  text-shadow: 0 10px 28px rgba(255, 255, 255, 0.65);
+  text-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
 /* .landing-intro h1 span {
@@ -345,7 +345,7 @@
   font-weight: 300;
   color: var(--accentColor);
   margin: 0;
-  text-shadow: 0 8px 24px rgba(255, 255, 255, 0.48);
+  text-shadow: 0 10px 24px rgba(0, 0, 0, 0.46);
 }
 
 .landing-info h2 {
@@ -363,7 +363,7 @@
   letter-spacing: 2px;
   white-space: nowrap;
   color: var(--textPrimary);
-  text-shadow: 0 10px 24px rgba(255, 255, 255, 0.42);
+  text-shadow: 0 10px 24px rgba(0, 0, 0, 0.46);
 }
 
 .landing-h2-info {
@@ -392,7 +392,7 @@ h2.landing-info-h2 {
 .landing-h2-info,
 .landing-h2-info-1,
 .landing-h2-2 {
-  text-shadow: 0 8px 22px rgba(255, 255, 255, 0.35);
+  text-shadow: 0 8px 22px rgba(0, 0, 0, 0.42);
 }
 
 .landing-h2-2 {

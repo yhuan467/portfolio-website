@@ -4,10 +4,10 @@
   height: var(--vh);
   /* background-image: linear-gradient(#cbb1ff, #d8c4ff); */
   background:
-    linear-gradient(180deg, rgba(4, 7, 11, 0.24) 0%, rgba(4, 7, 11, 0.6) 100%),
-    url('/images/background.jpg');
+    linear-gradient(180deg, rgba(7, 74, 110, 0.10) 0%, rgba(4, 16, 29, 0.24) 42%, rgba(4, 7, 11, 0.62) 100%),
+    url('/images/background2.jpg');
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   z-index: 999999999;
   display: flex;
   place-items: center;

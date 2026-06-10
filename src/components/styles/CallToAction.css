@@ -41,7 +41,7 @@
 }
 
 .cta-btn-hire {
-  background: linear-gradient(135deg, rgba(255, 214, 224, 0.28), rgba(191, 217, 255, 0.16));
+  background: linear-gradient(180deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.06) 100%);
   color: var(--textPrimary);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
