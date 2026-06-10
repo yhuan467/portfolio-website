@@ -129,7 +129,7 @@
 
 .myworks-card-tech {
   font-size: 13px;
-  color: rgba(68, 86, 106, 0.72);
+  color: var(--accentColor);
   line-height: 1.5;
 }
 

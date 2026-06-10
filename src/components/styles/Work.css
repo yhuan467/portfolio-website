@@ -1,9 +1,13 @@
 .work-section h2 {
   margin-top: 100px;
+  margin-bottom: 24px;
+  width: 100%;
   font-size: 70px;
+  line-height: 0.95;
   font-weight: 500;
-  color: rgba(248, 241, 232, 0.96);
-  text-shadow: 0 10px 32px rgba(9, 16, 24, 0.35);
+  text-align: center;
+  color: rgba(251, 246, 238, 0.98);
+  text-shadow: 0 14px 34px rgba(4, 10, 16, 0.42);
 }
 
 .work-section h2>span {
@@ -27,13 +31,13 @@
   background:
     linear-gradient(
       180deg,
-      rgba(7, 16, 28, 0.22) 0%,
-      rgba(7, 16, 28, 0.08) 18%,
-      rgba(8, 16, 26, 0.12) 52%,
-      rgba(8, 16, 26, 0.24) 100%
+      rgba(7, 16, 28, 0.18) 0%,
+      rgba(7, 16, 28, 0.06) 18%,
+      rgba(8, 16, 26, 0.10) 52%,
+      rgba(8, 16, 26, 0.18) 100%
     );
-  backdrop-filter: blur(10px) saturate(112%);
-  -webkit-backdrop-filter: blur(10px) saturate(112%);
+  backdrop-filter: blur(6px) saturate(108%);
+  -webkit-backdrop-filter: blur(6px) saturate(108%);
   z-index: 0;
 }
 
@@ -62,7 +66,7 @@
   flex-direction: column;
   width: 600px;
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.34);
   flex-shrink: 0;
   gap: 50px;
   justify-content: start;
@@ -71,15 +75,16 @@
   background:
     linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.34) 0%,
-      rgba(255, 255, 255, 0.2) 100%
+      rgba(255, 255, 255, 0.42) 0%,
+      rgba(255, 255, 255, 0.26) 52%,
+      rgba(255, 255, 255, 0.18) 100%
     );
   box-shadow:
-    0 28px 70px rgba(7, 18, 30, 0.24),
-    inset 0 1px 0 rgba(255, 255, 255, 0.6),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(28px) saturate(135%);
-  -webkit-backdrop-filter: blur(28px) saturate(135%);
+    0 34px 80px rgba(7, 18, 30, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(34px) saturate(150%);
+  -webkit-backdrop-filter: blur(34px) saturate(150%);
 }
 
 .work-flex .work-box:nth-child(even) {
@@ -118,20 +123,20 @@
   line-height: 50px;
   margin: 0;
   font-weight: 600;
-  color: #f8f1e8;
-  text-shadow: 0 6px 18px rgba(10, 16, 24, 0.18);
+  color: rgba(249, 244, 236, 0.98);
+  text-shadow: 0 10px 24px rgba(10, 16, 24, 0.24);
 }
 
 .work-info h4 {
   font-size: 26px;
   font-weight: 500;
   margin: 0;
-  color: #193245;
+  color: #102030;
 }
 
 .work-info p {
-  font-weight: 200;
-  color: rgba(25, 50, 69, 0.82);
+  font-weight: 300;
+  color: rgba(12, 29, 42, 0.96);
   margin: 0;
   margin-top: 3px;
 }
@@ -154,7 +159,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.34);
   width: 50px;
   border-radius: 50px;
   height: 50px;
@@ -162,7 +167,7 @@
   justify-content: center;
   align-items: center;
   font-size: 25px;
-  color: #173245;
+  color: #102030;
   border: 1px solid rgba(255, 255, 255, 0.36);
   box-shadow:
     0 18px 34px rgba(7, 18, 30, 0.18),
@@ -196,7 +201,7 @@
   max-width: 100%;
   max-height: 350px;
   border-radius: 24px;
-  box-shadow: 0 20px 40px rgba(7, 18, 30, 0.12);
+  box-shadow: 0 24px 42px rgba(7, 18, 30, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
 }
 
 @media only screen and (max-height: 900px) {
@@ -313,12 +318,12 @@
 .see-all-works h3 {
   font-size: 32px;
   font-weight: 500;
-  color: #173245;
+  color: var(--accentColor);
 }
 
 .see-all-works p {
   font-size: 16px;
-  color: rgba(23, 50, 69, 0.72);
+  color: rgba(243, 180, 139, 0.86);
   max-width: 250px;
 }
 
@@ -327,7 +332,7 @@
   padding: 15px 35px;
   font-size: 16px;
   font-weight: 500;
-  color: #173245;
+  color: var(--accentColor);
   background: rgba(255, 255, 255, 0.42);
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.42);

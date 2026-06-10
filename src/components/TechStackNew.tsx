@@ -116,7 +116,7 @@ const TechStackNew = () => {
 
         <div className="licenses-block">
           <div className="licenses-heading">
-            <h3>Licenses & Certifications</h3>
+            <h2>Licenses & <span>Certifications</span></h2>
             <p>
               A credential deck of AI coursework and research certifications I
               earned alongside my software, simulation, and machine learning

@@ -94,7 +94,7 @@ export const config = {
       title: "Reinforcement Learning Agents for Sequential Decision-Making",
       category: "Machine Learning / Reinforcement Learning",
       technologies: "Python, Value Iteration, Q-Learning, Approximate Q-Learning, Pacman AI",
-      image: "/images/project-traffic-rl.png",
+      image: "/images/pecman.png",
       description:
         "Implemented five reinforcement learning algorithms across Gridworld, Crawler, and Pacman environments. Trained a Pacman agent over 2,000 episodes to achieve a 100% win rate across 100 evaluation games with an average score above 500.",
     },
@@ -103,7 +103,7 @@ export const config = {
       title: "Multi-Agent Pacman AI",
       category: "Machine Learning / Search & Adversarial AI",
       technologies: "Python, Minimax, Alpha-Beta Pruning, Expectimax, Multi-Agent Search",
-      image: "/images/project-traffic-rl.png",
+      image: "/images/pecman.png",
       description:
         "Engineered four Pacman agents using Minimax, Alpha-Beta pruning, and Expectimax for adversarial and stochastic decision-making. Reduced Alpha-Beta depth-4 runtime from 73.76 seconds to 27.05 seconds while preserving equivalent gameplay outcomes.",
     },
@@ -112,7 +112,7 @@ export const config = {
       title: "Graph Search and Heuristic Pathfinding Engine",
       category: "Algorithms / AI Search",
       technologies: "Python, DFS, BFS, UCS, A*, Heuristic Design",
-      image: "/images/project-traffic-rl.png",
+      image: "/images/pecman.png",
       description:
         "Built DFS, BFS, UCS, and A* pathfinding agents for grid-based multi-goal navigation problems. Designed an admissible heuristic that cut search-node expansions by more than 60% on benchmark mazes without sacrificing optimality.",
     },
@@ -148,7 +148,7 @@ export const config = {
       title: "SOAP & REST Web Services",
       category: "Distributed Systems / Backend Development",
       technologies: "Java, SOAP, REST, WebStar, External APIs, Data Aggregation",
-      image: "/images/project-watchdna.png",
+      image: "/images/soap.png",
       description:
         "Developed and deployed SOAP and REST services on the WebStar server to compute region livability scores from ZIP codes using three external APIs. Built the data integration layer to aggregate, normalize, and return weather and natural hazard information as structured client-ready responses for distributed applications.",
     },
@@ -157,7 +157,7 @@ export const config = {
       title: "Interactive E-Commerce Profitability Analytics Dashboard",
       category: "Data Visualization / Analytics",
       technologies: "JavaScript, Data Visualization, Dashboard Design, Interactive Filtering",
-      image: "/images/project-watchdna.png",
+      image: "/images/dashboard.png",
       description:
         "Built an interactive analytics dashboard that surfaced revenue patterns, high-margin segments, and outliers across five or more product categories. Designed filters and hover-based exploration that made cross-segment comparison significantly faster.",
     },
@@ -166,7 +166,7 @@ export const config = {
       title: "E-Commerce UX Redesign — Escape from Tarkov",
       category: "UX Design / Product Thinking",
       technologies: "Figma, UX Research, Interaction Design, Checkout Flow Redesign",
-      image: "/images/project-watchdna.png",
+      image: "/images/tokov.png",
       description:
         "Redesigned checkout and support navigation in Figma for an e-commerce experience inspired by Escape from Tarkov. Reduced multi-item checkout time by 45% and improved satisfaction through a clearer navigation hierarchy and more unified purchase flow.",
     },
