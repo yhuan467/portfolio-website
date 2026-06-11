@@ -12,40 +12,42 @@ import TechStackNew from "./TechStackNew";
 import CallToAction from "./CallToAction";
 import setSplitText from "./utils/splitText";
 
+const getViewportFlags = () => ({
+  isDesktopView: window.innerWidth > 1024,
+  isMobile: window.innerWidth <= 768,
+});
+
 const MainContainer = ({ children }: PropsWithChildren) => {
-  const [isDesktopView, setIsDesktopView] = useState<boolean>(
-    window.innerWidth > 1024
-  );
-  const [isMobile] = useState<boolean>(window.innerWidth <= 768);
+  const [{ isDesktopView, isMobile }, setViewport] = useState(getViewportFlags);
 
   useEffect(() => {
     const resizeHandler = () => {
       setSplitText();
-      setIsDesktopView(window.innerWidth > 1024);
+      setViewport(getViewportFlags());
     };
+
     resizeHandler();
     window.addEventListener("resize", resizeHandler);
+
     return () => {
       window.removeEventListener("resize", resizeHandler);
     };
-  }, [isDesktopView]);
+  }, []);
 
   return (
     <div className="container-main">
-      <Cursor />
+      {!isMobile && <Cursor />}
       <Navbar />
       <SocialIcons />
       {isDesktopView && !isMobile && children}
-      <div className="container-main">
-        <Landing />
-        <About />
-        <WhatIDo />
-        <Career />
-        <Work />
-        <TechStackNew />
-        <CallToAction />
-        <Contact />
-      </div>
+      <Landing />
+      <About />
+      <WhatIDo />
+      <Career />
+      <Work />
+      <TechStackNew />
+      <CallToAction />
+      <Contact />
     </div>
   );
 };
